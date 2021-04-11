@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e3f041dfa.js" crossorigin="anonymous"></script>
+    <title>Reserve.al</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <div class="row" style="width: 100%">
+        <div class="col d-flex justify-content-between align-center">
+          <a class="navbar-brand" href="index.html" style="padding-left: 30px;"><h3><b>Reserve</b><b style="color: rgb(8, 150, 255);">.al</b></h3></a>
+          <button style="margin-left: auto;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse sign-nav" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="ccs.html" style="margin-right: 10px;"><i class="far fa-question-circle fa-2x" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contact Customer Service"></i></a>
+              </li>
+          <li class="nav-item">
+            <a class="btn btn-sm btn-light" href="signin.html" role="button" style="margin-right: 10px; margin-top: 10px;"><b>Register</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-sm btn-light" href="signin.html" role="button" style="margin-top: 10px;"><b>Sign in</b></a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container">
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" aria-current="page"><i class="fas fa-bed"></i>  Stays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="flights.html"><i class="fas fa-plane"></i>  Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrental.html"><i class="fas fa-car-side"></i>  Car rentals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="attractions.html"><i class="fas fa-mountain"></i>  Attractions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="airporttaxis.html"><i class="fas fa-taxi"></i>  Airport taxis</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Stays -->
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <div style="margin-left: 300px;">
+           <h5><i class="fas fa-info-circle"></i><b>  Coronavirus (COVID-19) support</b></h5>
+        </div>
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body" style="margin-left: 300px;">Check for travel restrictions. Travel might only be permitted for certain purposes, and touristic travel in particular may not be allowed.</div>
+        <a href="" style="margin-left: 320px;">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="background: #f5f5f5;">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+    <h3 style="margin-top: 60px;">Find deals on hotels, homes, and much more...</h3>
+    <p>From cozy country homes to funky city apartments</p>
+
+    <div class="input-group" style="margin-top: 30px;">
+      <div style="position: relative;">
+          <i style="position: absolute; top: 40%; left: 10%; color: 000; z-index: 100" class="fas fa-search"></i>
+      <input style="padding-left: 46px;" type="text" aria-label="Where" class="form-control yellowborder" placeholder="Where are you going?">
+  </div>
+  <div style="position: relative;">
+      <i style="position: absolute; top: 40%; left: 10%; color: 000; z-index: 100" class="far fa-calendar"></i>
+  <input style="padding-left: 46px;" type="text" aria-label="Calendar" class="form-control yellowborder" placeholder="Sun, Feb 7 - Wed, Feb 10">
+</div>
+<div style="position: relative;">
+  <i style="position: absolute; top: 40%; left: 10%; color: 000; z-index: 100" class="fas fa-user-alt"></i>
+<input style="padding-left: 46px;" type="text" aria-label="User" class="form-control yellowborder" placeholder="2 adults  ·  0 children  ·  1 room">
+</div>
+      <span><a class="btn btn-primary yellowborder" href="">Search</a></span>
+    </div>
+</div>
+<div class="form-check" style="margin-left: 335px; margin-top: 10px; margin-bottom: 50px;">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    I'm traveling for work
+  </label>
+</div>
+ </div>
+  <div class="col-sm-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <h3 style="margin-top: 50px;">Top beach getaways</h3>
+      <p>Popular with travelers from your area.</p>
+      <div class="card-group">
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Greece.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Greece</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Spain.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spain</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Albania.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Albania</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Italy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italy</h5>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <div class="card-group">
+        <div class="card bg-dark text-white" style="margin: 10px;">
+          <img src="img/Istanbul.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="card-title"><b>Istanbul</b></h2>
+            <p class="card-text">4,208 properties.</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white" style="margin: 10px;">
+          <img src="img/Rome.jfif" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="card-title"><b>Rome</b></h2>
+            <p class="card-text">14,095 properties</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card bg-dark text-white" style="margin: 10px;">
+          <img src="img/Milan.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="card-title"><b>Milan</b></h2>
+            <p class="card-text">5,618 properties.</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white" style="margin: 10px;">
+          <img src="img/Brussels.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="card-title"><b>Brussels</b></h2>
+            <p class="card-text">1,150 properties</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white" style="margin: 10px;">
+          <img src="img/London.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="card-title"><b>London</b></h2>
+            <p class="card-text">14,500 properties.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <h4 style="margin-top: 50px;"><b>Explore Albania</b></h4>
+      <p>These popular destinations have a lot to offer</p>
+      <div class="card-group">
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Tirane.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tirane</h5>
+          <p>843 properties</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Korce.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Korçë</h5>
+          <p>155 properties</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Durres.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Durrës</h5>
+          <p>593 properties</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px;">
+        <img src="img/Dardhe.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dardhë</h5>
+          <p>1 properties</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; height: 18rem; margin: 10px;">
+        <img src="img/Voskopoje.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Voskopojë</h5>
+          <p>13 properties</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <h2 style="margin-top: 50px;"><b> Homes guests love</b></h2>
+      <div class="card-group">
+      <div class="card" style="min-width: 30rem; margin: 10px;">
+        <img src="img/villa domina.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Villa Domina</h5>
+          <p>Rome</p>
+          <p><b>Starting from ALL 18,700</b></p>
+          <p><span class="badge bg-primary">9.8</span><b> Exceptional</b> 56 reviews</p>
+        </div>
+      </div>
+      <div class="card" style="min-width: 30rem; margin: 10px;">
+        <img src="img/zoku.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Zoku Amsterdam</h5>
+          <p>Amsterdam</p>
+          <p><b>Starting from ALL 11,260</b></p>
+          <p><span class="badge bg-primary">9.0</span><b> Wonderful</b> 1,855 reviews</p>
+        </div>
+      </div>
+      <div class="card" style="min-width: 30rem; margin: 10px;">
+        <img src="img/beautiful apartment.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Beautiful apartment</h5>
+          <p>Nice</p>
+          <p><b>Starting from ALL 36,841</b></p>
+          <p><span class="badge bg-primary">9.4</span><b> Wonderful</b> 73 reviews</p>
+        </div>
+      </div>
+      <div class="card" style="min-width: 30rem; margin: 10px;">
+        <img src="img/rivier.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">River View Residence</h5>
+          <p>Budapest</p>
+          <p><b>Starting from ALL 17,605</b></p>
+          <p><span class="badge bg-primary">9.1</span><b> Wonderful</b> 54 reviews</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+
+  <div class="row blurow">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <div class="text-center"> 
+      <h3>Save time, save money!</h3>
+      <p>Sign up and we'll send the best deals to you</p>
+      <div>
+        <input class="footeremail" type="email">
+        <button class="btn btn-primary btn-lg" type="button">Button</button>
+      </div>
+      <div class="mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Send me a link to get the FREE Booking.com app!</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <p style="margin-top: 50px;">Whoever you are, whatever you're looking for, we have the perfect place for you. Our 28,130,378 listings include 6,488,264 listings of homes, apartments, and other unique places to stay, and are located in 153,889 destinations in 225 countries and territories. Booking.com B.V. is based in Amsterdam, the Netherlands and is supported internationally by 198 offices in 70 countries.</p>
+        <h5 class="text-center"><a class="extranetlogin " href="signin.html"><b>Extranet login</b></a></h5>
+        <p>Copyright © 1996–2021 Booking.com™. All rights reserved.</p>
+        <p class="text-center">Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </footer>
+
+  
+
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
